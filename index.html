@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sembunly - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav" data-animate="up">
+    <div class="logo">
+      <a href="index.html" style="color: white; text-decoration: none;">
+        SEM BUNLY
+      </a>
+    </div>
+
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav" data-animate="up">
+    <div class="logo">SEM BUNLY</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container" data-animate="left">
+      <img src="./assets/profile-pic.png" alt="SEM BUNLY profile picture" class="about-pic" />
+    </div>
+    <div class="section__text" data-animate="right">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">SEM BUNLY</h1>
+      <!--<p class="section__text__p2">IT Support Officer</p>-->
+      <div class="btn-container" data-animate="up">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container" data-animate="up">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/'" />
+        <img src="./assets/telegram-logo.png" alt="My Telegram profile" class="icon"
+          onclick="location.href='https://t.me/babyy_jann14'" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1" data-animate="up">Get To Know More</p>
+    <h1 class="title" data-animate="up">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container" data-animate="left">
+        <img src="./assets/profile-pic.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="text-container" data-animate="up">
+          <p>
+            I am a person who is eager to learn new skills and technologies. I am responsible, hardworking, and enjoy
+            solving problems. I have experience as a Customer Service Executive, which has helped me develop strong
+            communication and practical problem-solving skills.
+          </p>
+        </div>
+        <div class="about-containers">
+          <div class="details-container" data-animate="up">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>2+ years</p>
+            <h4><i>Customer Service Executive</i></h4>
+            <p><b>PEDRO</b> – M.W Metropolitan International Brands Co., Ltd., Phnom Penh January 2024 – Present</p>
+          </div>
+          <div class="details-container" data-animate="up">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <h4><i>Beltei International University</i></h4>
+            <p>Bachelor’s Degree in Information Technology — Year 2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" data-animate="up" role="button" tabindex="0"
+      onclick="location.href='./#experience'" />
+  </section>
+
+
+  <section id="experience">
+    <p class="section__text__p1" data-animate="up">Explore My</p>
+    <h1 class="title" data-animate="up">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <div class="details-container">
+          <h3 class="experience-sub-title" data-animate="up">Generalist</h3>
+          <div class="article-container">
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Retailer</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Associate</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Customer Support</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Inventory Assistance</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Store Operations</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+
+        <div class="details-container">
+          <h3 class="experience-sub-title" data-animate="up">Cash & POS Focus</h3>
+          <div class="article-container">
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Cashier</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>POS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Transactions</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Payments</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Billing</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Refunds & Returns</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>End-of-Day Reports</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+
+        <div class="details-container">
+          <h3 class="experience-sub-title" data-animate="up">Sales & KPIs Focus</h3>
+          <div class="article-container">
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Performance</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>ATV & UPT</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Upselling</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Cross-Selling</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Target Achievement</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Conversion Rate</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+
+        <div class="details-container">
+          <h3 class="experience-sub-title" data-animate="up">Visual Merchandising</h3>
+          <div class="article-container">
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>In-Store Display</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Eye-Catching Layouts</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Product Placement</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Seasonal Displays</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Brand Guidelines</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" data-animate="up"
+      onclick="location.href='./#projects'" />
+  </section>
+
+  <section id="skills">
+    <h1 class="title" data-animate="up"> Technical Skills</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h3 class="experience-sub-title" data-animate="up">Programming</h3>
+          <div class="article-container">
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C#</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PHP</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>DSA</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h3 class="experience-sub-title" data-animate="up">Web Development</h3>
+          <div class="article-container">
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h3 class="experience-sub-title" data-animate="up">Database</h3>
+          <div class="article-container">
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>DBMS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>FIREBASE</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h3 class="experience-sub-title" data-animate="up">OFFICE TOOL</h3>
+          <div class="article-container">
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>EXCEL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>WORD</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article data-animate="up">
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>POWER POINT</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" data-animate="up"
+      onclick="location.href='./#projects'" />
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1" data-animate="up">Browse My Recent</p>
+    <h1 class="title" data-animate="up">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container" data-animate="up">
+          <div class="article-container">
+            <img src="./assets/project1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title" data-animate="up">Project One</h2>
+          <div class="btn-container" data-animate="up">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+          </div>
+        </div>
+
+        <div class="details-container color-container" data-animate="up">
+          <div class="article-container">
+            <img src="./assets/project2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title" data-animate="up">Project Two</h2>
+          <div class="btn-container" data-animate="up">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+          </div>
+        </div>
+
+        <div class="details-container color-container" data-animate="up">
+          <div class="article-container">
+            <img src="./assets/project3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title" data-animate="up">Project Three</h2>
+          <div class="btn-container" data-animate="up">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" data-animate="up"
+      onclick="location.href='./#contact'" />
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1" data-animate="up">Get in Touch</p>
+    <h1 class="title" data-animate="up">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container" data-animate="up">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:sembunly2005@gmail.com">sembunly2005@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container" data-animate="up">
+        <img src="./assets/telegram-logo.png" alt="Telegram icon" class="icon contact-icon" />
+        <p><a href="https://t.me/babyy_jann14" target="_blank">Telegram</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer data-animate="up">
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>&copy; SEM BUNLY. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
